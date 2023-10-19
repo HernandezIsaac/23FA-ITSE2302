@@ -1,9 +1,14 @@
+
+/* Below code removes padding and margin from entire document*/
 body
 {
     padding: 0;
     margin: 0;    
 }
 
+
+/* This removes style type of a list, from bullet points to nothing.
+Also removes margin and padding */
 ul {
     list-style-type: none;
     margin: 0;
@@ -12,10 +17,13 @@ ul {
     background-color: #333;
   }
   
+  /* To make a navigation bar, float can be set to Right or Left, but
+  changes need to make accordingly. */
   li {
     float: left;
   }
   
+  /* Every links inside navigation bar must follow certain features.*/
   li a {
     display: block;
     color: white;
@@ -24,12 +32,22 @@ ul {
     text-decoration: none;
   }
   
+  /* When mouse is hovering over a link, it's color should change*/
   li a:hover {
     background-color: #111;
   }
 
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
+
+/* An Empty space like an emptry container*/
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
   }
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 50px;
+  left: 16px;
+}
