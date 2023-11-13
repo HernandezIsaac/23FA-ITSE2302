@@ -51,3 +51,9 @@ ul {
   bottom: 50px;
   left: 16px;
 }
+
+.form-position {
+  position: absolute;
+  bottom: 50px;
+  right: 320px;
+}
