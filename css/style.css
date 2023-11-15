@@ -52,8 +52,11 @@ ul {
   left: 16px;
 }
 
+/* set form position and background color */
 .form-position {
   position: absolute;
   bottom: 50px;
   right: 320px;
+  background-color: orangered;
+  padding: 10px;
 }

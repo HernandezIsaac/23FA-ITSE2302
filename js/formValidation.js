@@ -38,7 +38,12 @@ function ValidateForm(event)
         console.log("Country: " + country);
         console.log("Platforms: " + platforms)
         console.log("Message: " + message);
-        CalculatePrice();
+
+        // Catch return value
+        var totalPrice = CalculatePrice();
+        
+        console.log("Total Price: $" + totalPrice);
+
     };
 }
 
