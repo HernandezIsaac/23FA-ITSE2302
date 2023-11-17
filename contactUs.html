@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Give a title to a webpage -->
+    <title>23FA-ITSE2302</title>
+    <!-- <script src="js/script.js" defer></script> -->
+
+    <!-- Link a JavaScript File -->
+    <!-- <script src="js/stringsOperatorsLoops.js" defer></script> -->
+
+    <!-- Link a JavaScript File -->
+    <!-- <script src="js/evenOrOdd.js" defer></script> -->
+
+    <!-- Link a JavaScript File -->
+    <script src="js/formValidation.js" defer></script>
+
+    <!-- Link a CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Make an unordered list for navigation bar -->
+    <ul>
+        <!-- Each entry contains a HyperLink -->
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="#">Video</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+
+    <div class="container">
+        <!-- Add an image that spans completely hortizontally-->
+        <img src="images/ac6.png" alt="Snow" style="width:100%;">
+        <div class="form-position">
+            <!-- Make a form -->
+            <form id="form" class="form_class">
+
+                <!-- Make an input field for first name -->
+                <label>First Name:</label>
+                <input type="text" id="fn" name="first-name"><br><br>
+
+                <!-- Make an input field for last name -->
+                <label>Last Name:</label>
+                <input type="text" id="ln" name="last-name"><br><br>
+
+                <!-- Make radio buttons for gender -->
+                <label class="Blue-Font-Color">Gender:</label>
+                <input type="radio" name="gender" id="male" value="male" checked>
+                <label>Male</label>
+
+                <input type="radio" name="gender" id="female" value="female">
+                <label>Female</label> <br><br>
+
+                <!-- Make a list to select country -->
+                <label>Country: </label>
+                <select name="country" id="country">
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Australia">Australia</option>
+                </select><br><br>
+                
+                <!-- Make checkboxes to select platforms -->
+                <input type="checkbox" id="pc" name="PC" value="60">
+                <label>PC($60)</label><br>
+
+                <input type="checkbox" id="ps" name="Playstation 5" value="70">
+                <label>Playstation 5($70)</label><br>
+
+                <input type="checkbox" id="xbox" name="X-Box Series X" value="80">
+                <label>X-Box Series X($80)</label><br>
+
+                <!-- Make a message box area -->
+                <label >Message:</label><br>
+                <textarea name="message" id="message" cols="30" rows="4"></textarea><br><br>
+
+                <!-- Reset form and submit form buttons -->
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </div>                
+    </div>
+</body>
+</html>
